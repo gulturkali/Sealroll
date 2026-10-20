@@ -401,3 +401,12 @@ footer div{display:grid;gap:8px;text-align:right}
   }
 }
 
+/* Keep "Teknogirişim Rozeti" together */
+#recognition-description {
+  text-wrap: pretty;
+}
+
+#recognition-description .nowrap {
+  white-space: nowrap;
+}
+
