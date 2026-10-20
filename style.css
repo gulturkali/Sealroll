@@ -360,3 +360,44 @@ footer div{display:grid;gap:8px;text-align:right}
   }
 }
 
+/* Premium logo proportions */
+
+.brand{
+  display:flex;
+  align-items:center;
+  flex-shrink:0;
+}
+
+.brand img{
+  width:220px;
+  max-width:100%;
+  height:auto;
+  object-fit:contain;
+}
+
+.hero-brand{
+  padding:clamp(36px,5vw,72px);
+}
+
+.hero-brand img{
+  width:100%;
+  max-width:470px;
+  height:auto;
+  object-fit:contain;
+}
+
+.hero-brand p{
+  line-height:1.8;
+  letter-spacing:.18em;
+}
+
+@media(max-width:900px){
+  .brand img{
+    width:min(190px,43vw);
+  }
+
+  .hero-brand img{
+    max-width:340px;
+  }
+}
+
