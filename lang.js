@@ -71,7 +71,7 @@ const translations = {
     founderTitle: "Founder & Mechanical Engineer",
     location: "Çorlu, Tekirdağ, Türkiye",
     footerLocation: "Çorlu Chamber of Commerce and Industry (Çorlu TSO) TEKMER - Technology Development Center • Çorlu, Tekirdağ, Türkiye",
-    pageTitle: "SealRoll | Industrial Roller Technologies",
+    pageTitle: "SealRoll Engineering | Advanced Industrial Roller Technologies",
     pageDescription: "SealRoll develops industrial nonwoven roller technologies for rolling mills, pickling and cleaning lines, oil removal sections and metal strip processing applications."
   },
 
@@ -146,7 +146,7 @@ const translations = {
     founderTitle: "Kurucu ve Makine Mühendisi",
     location: "Çorlu, Tekirdağ, Türkiye",
     footerLocation: "Çorlu Ticaret ve Sanayi Odası (Çorlu TSO) TEKMER - Teknoloji Geliştirme Merkezi • Çorlu, Tekirdağ, Türkiye",
-    pageTitle: "SealRoll | Endüstriyel Merdane Teknolojileri",
+    pageTitle: "SealRoll Engineering | İleri Endüstriyel Merdane Teknolojileri",
     pageDescription: "SealRoll, metal işleme hatlarına yönelik yüksek performanslı nonwoven merdane teknolojileri ve endüstriyel mühendislik çözümleri geliştirir."
   }
 };
