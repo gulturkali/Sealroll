@@ -161,52 +161,7 @@ function setLanguage(lang) {
     button.setAttribute("aria-pressed", String(active));
   });
 
-  const recognition = language === "tr"
-
-    ? {
-
-        eyebrow: "RESMÎ TEKNOLOJİ GİRİŞİMİ BELGESİ",
-
-        title: "Teknoloji ve yenilik odaklı girişim.",
-
-        description:
-
-          "SealRoll Engineering, T.C. Sanayi ve Teknoloji Bakanlığı tarafından verilen Teknogirişim Rozeti'ni almaya hak kazanmıştır. Bu belge, şirketimizin teknoloji ve yenilik odaklı girişim niteliğini belgelendirmektedir.",
-
-        certificate: "Belge No: 2026-2086",
-
-        date: "Onay Tarihi: 20 Ekim 2026"
-
-      }
-
-    : {
-
-        eyebrow: "OFFICIAL RECOGNITION",
-
-        title: "Recognized for technology-driven innovation.",
-
-        description:
-
-          "SealRoll Engineering has been awarded the Technopreneurship Badge by the Republic of Türkiye Ministry of Industry and Technology, recognizing its status as a technology and innovation-oriented startup.",
-
-        certificate: "Certificate No: 2026-2086",
-
-        date: "Awarded: October 20, 2026"
-
-      };
-
-  setText("#recognition-eyebrow", recognition.eyebrow);
-
-  setText("#recognition-title", recognition.title);
-
-  setText("#recognition-description", recognition.description);
-
-  setText("#recognition-certificate", recognition.certificate);
-
-  setText("#recognition-date", recognition.date);
-    ? "SealRoll | Endüstriyel Merdane Teknolojileri"
-    : "SealRoll | Industrial Roller Technologies";
-
+  
   const description = document.querySelector('meta[name="description"]');
   if (description) {
     description.content = language === "tr"
