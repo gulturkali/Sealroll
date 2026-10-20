@@ -109,7 +109,7 @@ const translations = {
     ],
     recognitionEyebrow: "RESMÎ TEKNOLOJİ GİRİŞİMİ BELGESİ",
     recognitionTitle: "Teknoloji ve yenilik odaklı girişim.",
-    recognitionDescription: "SealRoll Engineering, T.C. Sanayi ve Teknoloji Bakanlığı tarafından verilen Teknogirişim Rozeti'ni almaya hak kazanmıştır. Bu belge, şirketimizin teknoloji ve yenilik odaklı girişim niteliğini belgelendirmektedir.",
+    recognitionDescription: "SealRoll Engineering, T.C. Sanayi ve Teknoloji Bakanlığı tarafından verilen Teknogirişim\u00A0Rozeti'ni almaya hak kazanmıştır. Bu belge, şirketimizin teknoloji ve yenilik odaklı girişim niteliğini belgelendirmektedir.",
     recognitionCertificate: "Belge No: 2026-2086",
     recognitionDate: "Onay Tarihi: 20 Ekim 2026",
     applicationsEyebrow: "Uygulama alanları",
